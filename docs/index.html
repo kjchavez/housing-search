@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Housing Search — Redwood City</title>
+<meta name="description" content="Interactive tracker for our Redwood City house-rental search.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>🏡 House Search — Redwood City</h1>
+    <div class="sub">Target: 2BR+ house · fenced yard for the dog · garage gym · near <b>1155 Veterans Blvd</b> · $4–6K (stretch $7K) · move ~30 days. Data read live from listings; updated <span id="updated">—</span>. Status &amp; notes save in your browser.</div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="row">
+      <input id="search" type="search" placeholder="Search name, city, type…">
+      <select id="sort" title="Sort">
+        <option value="score">Sort: Best score</option>
+        <option value="rent">Sort: Lowest rent</option>
+        <option value="dist">Sort: Closest</option>
+        <option value="beds">Sort: Most bedrooms</option>
+      </select>
+      <select id="statusFilter" title="Filter by status"></select>
+      <button class="btn" id="reset">Reset</button>
+      <button class="btn" id="export" title="Download your status + notes">⬇ Export</button>
+      <button class="btn" id="importBtn" title="Load a saved progress file">⬆ Import</button>
+      <input id="importFile" type="file" accept="application/json" style="display:none">
+    </div>
+    <div class="row" style="margin-top:10px">
+      <div class="chips" id="tierChips"></div>
+      <div class="chips" id="flagChips"></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="grid" id="grid"></div>
+</div>
+
+<footer class="wrap">
+  Tracker for our rental search · status/notes stored locally in your browser (use Export to back up or share) ·
+  full records &amp; photos in the <a href="https://github.com/kjchavez/housing-search" target="_blank" rel="noopener">repo</a>.
+</footer>
+
+<!-- detail modal -->
+<div class="modal" id="modal">
+  <div class="sheet" id="sheet">
+    <div class="top">
+      <h2 id="mTitle"></h2>
+      <button class="close" onclick="closeModal()" aria-label="Close">✕</button>
+    </div>
+    <div class="gallery" id="gallery"></div>
+    <div class="cols">
+      <div>
+        <div class="section-h">Details</div>
+        <div id="mInfo"></div>
+      </div>
+      <div>
+        <div class="section-h">Criteria match</div>
+        <div id="mCrit"></div>
+        <div class="section-h">Your status</div>
+        <select id="mStatus"></select>
+        <div class="section-h">Notes</div>
+        <textarea id="mNotes" placeholder="Call notes, questions, landlord contact, tour impressions…"></textarea>
+        <div class="savednote" id="mSaved"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox"><img alt=""></div>
+
+<script src="app.js"></script>
+</body>
+</html>

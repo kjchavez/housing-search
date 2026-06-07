@@ -1,0 +1,1165 @@
+{
+ "meta": {
+  "updated": "2026-06-07",
+  "anchor": "1155 Veterans Blvd, Redwood City",
+  "count": 19
+ },
+ "candidates": [
+  {
+   "slug": "106-oak-ave-redwood-city",
+   "name": "106 Oak Ave",
+   "city": "Redwood City",
+   "rent": 5500,
+   "rentLabel": "$5,500",
+   "beds": 4,
+   "baths": 2,
+   "sqft": 1700,
+   "type": "House",
+   "avail": "Now",
+   "pets": "Cats, dogs OK",
+   "petsOk": true,
+   "garage": "Attached garage",
+   "yard": "Yard \u2014 verify fence",
+   "distMi": 1.2,
+   "bikeMin": 7,
+   "score": 8.5,
+   "tier": "1",
+   "defaultStatus": "to-contact",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/106-Oak-Ave-Redwood-City-CA-94061/15565827_zpid/"
+   },
+   "summary": "Newly renovated 4bd/2ba house, attached garage, dogs OK \u2014 and the closest of all (7-min bike to Veterans Blvd). Verify the backyard is fenced.",
+   "flags": [
+    "Verify fenced yard"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "partial",
+    "light": "yes",
+    "yard": "unknown",
+    "dist": "yes",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/1ac7be2b62bdc245eff746489ff651ca-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/1ac7be2b62bdc245eff746489ff651ca-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/4e7c01f329c02a5077a97fdfbdd174d9-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/4e7c01f329c02a5077a97fdfbdd174d9-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/106-oak-ave-redwood-city/"
+  },
+  {
+   "slug": "cl-belmont-modern-3d",
+   "name": "Belmont \u201cModern 3D\u201d Home",
+   "city": "Belmont",
+   "rent": 6000,
+   "rentLabel": "$6,000",
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1690,
+   "type": "House",
+   "avail": "Jun 15",
+   "pets": "Small dogs OK",
+   "petsOk": true,
+   "garage": "2-car attached",
+   "yard": "Deck + yard \u2014 verify fence",
+   "distMi": 5,
+   "bikeMin": 28,
+   "score": 8.5,
+   "tier": "1",
+   "defaultStatus": "to-contact",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/belmont-beautiful-modern-belmont-3d/7937152559.html"
+   },
+   "summary": "Stunning open-concept home: high ceilings, Viking kitchen, canyon views, 2-car garage, small dogs OK. Only knock is Belmont distance (~5mi, hilly).",
+   "flags": [
+    "Verify yard fencing",
+    "~5mi hilly bike"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "yes",
+    "rent": "yes",
+    "garage": "partial",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00U0U_2orcTjUffYG_0gK0d6_600x450.jpg",
+     "full": "https://images.craigslist.org/00U0U_2orcTjUffYG_0gK0d6_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01212_6dvlTh7FjhL_0fm09J_600x450.jpg",
+     "full": "https://images.craigslist.org/01212_6dvlTh7FjhL_0fm09J_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00f0f_ajr49dHEuf4_0fl09L_600x450.jpg",
+     "full": "https://images.craigslist.org/00f0f_ajr49dHEuf4_0fl09L_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00707_ipbBqtsiIVp_0fs09J_600x450.jpg",
+     "full": "https://images.craigslist.org/00707_ipbBqtsiIVp_0fs09J_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00p0p_c8DzBvpHMr8_0fr09I_600x450.jpg",
+     "full": "https://images.craigslist.org/00p0p_c8DzBvpHMr8_0fr09I_1200x900.jpg"
+    }
+   ],
+   "folder": "candidates/cl-belmont-modern-3d/"
+  },
+  {
+   "slug": "1382-valota-rd-redwood-city",
+   "name": "1382 Valota Rd",
+   "city": "Redwood City",
+   "rent": 3650,
+   "rentLabel": "$3,650",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 880,
+   "type": "House (duplex unit)",
+   "avail": "Now",
+   "pets": "Dogs OK (case-by-case)",
+   "petsOk": true,
+   "garage": "1-car carport",
+   "yard": "Private fenced yard",
+   "distMi": 2,
+   "bikeMin": 12,
+   "score": 7.5,
+   "tier": "1",
+   "defaultStatus": "to-contact",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/1382-Valota-Rd-Redwood-City-CA-94061/462945854_zpid/"
+   },
+   "summary": "Best value: private fenced yard, dogs OK, bright open-concept, quiet near Woodside Plaza, just $3,650. Carport (not enclosed garage); 880 sqft.",
+   "flags": [
+    "Carport not garage",
+    "Confirm dog approval"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "yes",
+    "dist": "yes",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "partial",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/d82b478a326527558e57d3165b1df4e5-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/d82b478a326527558e57d3165b1df4e5-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/64a2988158869c224744571316e2dbf5-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/64a2988158869c224744571316e2dbf5-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/92613460ec0d542df6a26e539be6b1df-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/92613460ec0d542df6a26e539be6b1df-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/8db7d35c64c020cc1a9481f584c5ec89-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/8db7d35c64c020cc1a9481f584c5ec89-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/77ac787f33f5be7d9a9d4844bfa85040-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/77ac787f33f5be7d9a9d4844bfa85040-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/1382-valota-rd-redwood-city/"
+  },
+  {
+   "slug": "1740-whipple-ave-redwood-city",
+   "name": "1740 Whipple Ave (1928 Tudor)",
+   "city": "Redwood City",
+   "rent": 6950,
+   "rentLabel": "$6,950",
+   "beds": 3,
+   "baths": 1,
+   "sqft": 1450,
+   "type": "House",
+   "avail": "Jun 15",
+   "pets": "Pet friendly",
+   "petsOk": true,
+   "garage": "1-car garage",
+   "yard": "Private yard + spa",
+   "distMi": 1.5,
+   "bikeMin": 9,
+   "score": 7.0,
+   "tier": "1",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Rent.com",
+    "url": "https://www.rent.com/r/1740-whipple-ave-redwood-city-ca-lv3092857397"
+   },
+   "summary": "Charming 1928 Tudor on a rare 9,700 sqft lot: refinished hardwood, sunroom, private backyard w/ pergola + jacuzzi, pet-friendly. Pricey ($6,950), 1 bath, 1-car garage.",
+   "flags": [
+    "$6,950 top of stretch",
+    "Only 1 bath"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "partial",
+    "light": "yes",
+    "yard": "yes",
+    "dist": "yes",
+    "ceilings": "partial",
+    "rent": "partial",
+    "garage": "partial",
+    "house": "yes"
+   },
+   "photos": [],
+   "folder": "candidates/1740-whipple-ave-redwood-city/"
+  },
+  {
+   "slug": "1-arroyo-view-cir-belmont",
+   "name": "1 Arroyo View Cir",
+   "city": "Belmont",
+   "rent": 5500,
+   "rentLabel": "$5,500",
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1420,
+   "type": "House (HOA)",
+   "avail": "Now \u2014 apps in",
+   "pets": "Cats / small dogs OK (2)",
+   "petsOk": true,
+   "garage": "Attached garage",
+   "yard": "Verify (HOA community)",
+   "distMi": 4.5,
+   "bikeMin": 25,
+   "score": 7.0,
+   "tier": "1",
+   "defaultStatus": "to-contact",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/1-Arroyo-View-Cir-Belmont-CA-94002/15547056_zpid/"
+   },
+   "summary": "Active rental in a Belmont HOA community: 3bd, attached garage, small dogs OK. They're already reviewing applications \u2014 move fast. Likely no private fenced yard.",
+   "flags": [
+    "Already taking applications",
+    "Verify private yard"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "unknown",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/badcfa0f6666f4a26907d5bb843fd643-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/badcfa0f6666f4a26907d5bb843fd643-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/0c6f6893112ce53c8f1adb09f083da86-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/0c6f6893112ce53c8f1adb09f083da86-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/235c3f3f2e83af98c74d638ff552b5c0-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/235c3f3f2e83af98c74d638ff552b5c0-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/857601848257d59981f31db4c586ea04-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/857601848257d59981f31db4c586ea04-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/72619c38cd3399203aecbb858a283b1f-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/72619c38cd3399203aecbb858a283b1f-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/1-arroyo-view-cir-belmont/"
+  },
+  {
+   "slug": "cl-rwc-201-yarborough",
+   "name": "201 Yarborough Ln",
+   "city": "Redwood City",
+   "rent": 6200,
+   "rentLabel": "$6,200",
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2147,
+   "type": "House (gated)",
+   "avail": "Jul 7",
+   "pets": "Verify",
+   "petsOk": null,
+   "garage": "Attached garage",
+   "yard": "Verify",
+   "distMi": 3,
+   "bikeMin": 16,
+   "score": 7.0,
+   "tier": "1",
+   "defaultStatus": "to-contact",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/redwood-city-beauty-bedrooms-bathrooms/7938593380.html"
+   },
+   "summary": "Spacious 4bd/3ba in a gated community, attached garage, $6,200. Two open questions could make it #1: pets allowed? private fenced yard?",
+   "flags": [
+    "Verify pets",
+    "Verify fenced yard"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "unknown",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00g0g_3TTZSO8DUSs_0gw0aW_600x450.jpg",
+     "full": "https://images.craigslist.org/00g0g_3TTZSO8DUSs_0gw0aW_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00s0s_dZTuTbp6Rrh_0gw0aW_600x450.jpg",
+     "full": "https://images.craigslist.org/00s0s_dZTuTbp6Rrh_0gw0aW_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01414_4oZZp3zTBhb_0gw0aT_600x450.jpg",
+     "full": "https://images.craigslist.org/01414_4oZZp3zTBhb_0gw0aT_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00808_48Et4jjqFVI_0gw0aW_600x450.jpg",
+     "full": "https://images.craigslist.org/00808_48Et4jjqFVI_0gw0aW_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00505_4rpyrtXq3ew_0gw0aV_600x450.jpg",
+     "full": "https://images.craigslist.org/00505_4rpyrtXq3ew_0gw0aV_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00u0u_5aCNmBgyvRN_0gw0aU_600x450.jpg",
+     "full": "https://images.craigslist.org/00u0u_5aCNmBgyvRN_0gw0aU_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00x0x_hAKugxke0H5_0gw0aW_600x450.jpg",
+     "full": "https://images.craigslist.org/00x0x_hAKugxke0H5_0gw0aW_1200x900.jpg"
+    }
+   ],
+   "folder": "candidates/cl-rwc-201-yarborough/"
+  },
+  {
+   "slug": "cl-menlo-remodeled-yards",
+   "name": "788 18th Ave",
+   "city": "Menlo Park",
+   "rent": 4750,
+   "rentLabel": "$4,750",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1090,
+   "type": "House",
+   "avail": "Jun 15",
+   "pets": "No pets (except service animal)",
+   "petsOk": false,
+   "garage": "Finished 2-car garage",
+   "yard": "Landscaped backyard",
+   "distMi": 3.5,
+   "bikeMin": 18,
+   "score": 5.0,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/menlo-park-beautifully-remodeled-home/7938986458.html"
+   },
+   "summary": "Beautiful remodel with the ideal gym garage (finished 2-car) at a great price \u2014 but NO PETS. Would be ~8.5 if they'd make a dog exception. Worth a call.",
+   "flags": [
+    "No pets \u2014 ask for exception"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/01111_7KCTb8qpKHu_08S06F_600x450.jpg",
+     "full": "https://images.craigslist.org/01111_7KCTb8qpKHu_08S06F_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01414_eKxQsgxmSeM_0gw0co_600x450.jpg",
+     "full": "https://images.craigslist.org/01414_eKxQsgxmSeM_0gw0co_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00y0y_3Giy8KJzd8a_0cI08k_600x450.jpg",
+     "full": "https://images.craigslist.org/00y0y_3Giy8KJzd8a_0cI08k_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00V0V_3HAwi8JisJ3_0ak06T_600x450.jpg",
+     "full": "https://images.craigslist.org/00V0V_3HAwi8JisJ3_0ak06T_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00c0c_97D9JtTH1AO_09i0co_600x450.jpg",
+     "full": "https://images.craigslist.org/00c0c_97D9JtTH1AO_09i0co_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00x0x_bBnxURLkcMP_0cI08h_600x450.jpg",
+     "full": "https://images.craigslist.org/00x0x_bBnxURLkcMP_0cI08h_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00A0A_bhgO8GXk5Fj_0cI08k_600x450.jpg",
+     "full": "https://images.craigslist.org/00A0A_bhgO8GXk5Fj_0cI08k_1200x900.jpg"
+    }
+   ],
+   "folder": "candidates/cl-menlo-remodeled-yards/"
+  },
+  {
+   "slug": "cl-sancarlos-2bed-bonus",
+   "name": "San Carlos 2BR + bonus",
+   "city": "San Carlos",
+   "rent": 5800,
+   "rentLabel": "$5,800",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1210,
+   "type": "House",
+   "avail": "Aug 25",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "1-car attached",
+   "yard": "Huge fenced yard",
+   "distMi": 3.5,
+   "bikeMin": 18,
+   "score": 5.5,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/san-carlos-perfect-location-beautifully/7935730013.html"
+   },
+   "summary": "Remodeled house with the best fenced yard of the batch (terraced garden + treehouse) \u2014 but NO PETS and not available until Aug 25.",
+   "flags": [
+    "No pets",
+    "Available Aug 25 (late)"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "partial",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00202_eV3hGUGZYHN_0nm0hw_600x450.jpg",
+     "full": "https://images.craigslist.org/00202_eV3hGUGZYHN_0nm0hw_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00g0g_eh9yqQNbJUW_0gl0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00g0g_eh9yqQNbJUW_0gl0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00e0e_b5jpzj9Xg6R_0gw0b1_600x450.jpg",
+     "full": "https://images.craigslist.org/00e0e_b5jpzj9Xg6R_0gw0b1_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00E0E_cwNjWAfSZww_08g0co_600x450.jpg",
+     "full": "https://images.craigslist.org/00E0E_cwNjWAfSZww_08g0co_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01717_cRSdyfVYVYJ_0gw0b3_600x450.jpg",
+     "full": "https://images.craigslist.org/01717_cRSdyfVYVYJ_0gw0b3_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00A0A_7jQb8hRmebL_0gw0b1_600x450.jpg",
+     "full": "https://images.craigslist.org/00A0A_7jQb8hRmebL_0gw0b1_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00404_gIHvwnFyKPa_0gw0b1_600x450.jpg",
+     "full": "https://images.craigslist.org/00404_gIHvwnFyKPa_0gw0b1_1200x900.jpg"
+    }
+   ],
+   "folder": "candidates/cl-sancarlos-2bed-bonus/"
+  },
+  {
+   "slug": "cl-rwc-house-lease-jul1",
+   "name": "Upper RWC 2BR (lease 7/1)",
+   "city": "Redwood City",
+   "rent": 5000,
+   "rentLabel": "$5,000",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1250,
+   "type": "House",
+   "avail": "Jul 1",
+   "pets": "Verify",
+   "petsOk": null,
+   "garage": "No garage (driveway)",
+   "yard": "Front + back yards",
+   "distMi": 3,
+   "bikeMin": 16,
+   "score": 6.0,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/redwood-city-house-for-lease/7934426468.html"
+   },
+   "summary": "Quiet upper-RWC house with a bay-view deck and yards, in budget \u2014 but explicitly NO garage (kills the gym requirement). No photos in the post.",
+   "flags": [
+    "No garage",
+    "No photos posted"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "no",
+    "house": "yes"
+   },
+   "photos": [],
+   "folder": "candidates/cl-rwc-house-lease-jul1/"
+  },
+  {
+   "slug": "cl-rwc-modern-farm-orchard",
+   "name": "RWC Modern Farm/Orchard",
+   "city": "Redwood City",
+   "rent": 7000,
+   "rentLabel": "$7,000",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1000,
+   "type": "House (furnished)",
+   "avail": "Jul 18",
+   "pets": "Dogs \u226420lb OK",
+   "petsOk": true,
+   "garage": "No garage (street)",
+   "yard": "Patios + orchard",
+   "distMi": 2.5,
+   "bikeMin": 12,
+   "score": 6.0,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/redwood-city-new-gorgeous-modern-home/7939164840.html"
+   },
+   "summary": "Gorgeous 2021 cottage: cathedral ceilings, tons of light, dog-tolerant, ~2.5mi to Veterans \u2014 but furnished/short-term-oriented, no garage, top-of-budget $7K.",
+   "flags": [
+    "Furnished / short-term",
+    "No garage",
+    "20lb dog limit"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "partial",
+    "dist": "yes",
+    "ceilings": "yes",
+    "rent": "partial",
+    "garage": "no",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00y0y_jLJ8DQcEKin_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00y0y_jLJ8DQcEKin_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00000_5yhk4I1yU3X_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00000_5yhk4I1yU3X_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00O0O_klwljZQuoLf_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00O0O_klwljZQuoLf_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00V0V_1l6Zy032bUf_0x30oN_600x450.jpg",
+     "full": "https://images.craigslist.org/00V0V_1l6Zy032bUf_0x30oN_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00P0P_32GZqMisXLf_0x20oM_600x450.jpg",
+     "full": "https://images.craigslist.org/00P0P_32GZqMisXLf_0x20oM_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00u0u_6CySBsleQtu_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00u0u_6CySBsleQtu_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01313_89b16CePiMo_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/01313_89b16CePiMo_0CI0t2_1200x900.jpg"
+    }
+   ],
+   "folder": "candidates/cl-rwc-modern-farm-orchard/"
+  },
+  {
+   "slug": "1405-el-camino-real-144-redwood-city",
+   "name": "1405 El Camino Real #144 (Highwater)",
+   "city": "Redwood City",
+   "rent": 5570,
+   "rentLabel": "$5,570",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 996,
+   "type": "Apartment",
+   "avail": "Verify",
+   "pets": "Cats, dogs OK",
+   "petsOk": true,
+   "garage": "Shared building garage",
+   "yard": "None (apartment)",
+   "distMi": 0.4,
+   "bikeMin": 3,
+   "score": 5.0,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/1405-El-Camino-Real-144-Redwood-City-CA-94063/2054336778_zpid/"
+   },
+   "summary": "Upscale 2021 LEED-Gold apartment, dog-friendly, the most walkable (~0.4mi to Veterans Blvd) \u2014 but a busy-street apartment with no private yard or garage.",
+   "flags": [
+    "Apartment, not house",
+    "Busy street",
+    "No yard/private garage"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "no",
+    "light": "partial",
+    "yard": "no",
+    "dist": "yes",
+    "ceilings": "partial",
+    "rent": "yes",
+    "garage": "no",
+    "house": "no"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/8d6749805ce593476a00c07696d45158-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/8d6749805ce593476a00c07696d45158-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/35a4ca1964917e19f8ff06d21db0611f-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/35a4ca1964917e19f8ff06d21db0611f-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/601e6415561976ebcd4b115730ded5ab-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/601e6415561976ebcd4b115730ded5ab-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/c18208e5a86297524fa75155bf78c7ea-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/c18208e5a86297524fa75155bf78c7ea-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/b154ddcf76ae084bc277807cdfb59600-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/b154ddcf76ae084bc277807cdfb59600-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/1405-el-camino-real-144-redwood-city/"
+  },
+  {
+   "slug": "3519-hoover-st-redwood-city",
+   "name": "3519 Hoover St",
+   "city": "Redwood City",
+   "rent": 3995,
+   "rentLabel": "$3,995",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 950,
+   "type": "House (duplex front)",
+   "avail": "Jun 8",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "No garage (driveway)",
+   "yard": "Front yard porch",
+   "distMi": 1.5,
+   "bikeMin": 9,
+   "score": 5.0,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/3519-Hoover-St-Redwood-City-CA-94063/15568349_zpid/"
+   },
+   "summary": "Fully remodeled cheap RWC house close to Veterans Blvd \u2014 but NO pets and NO garage. (Earlier 'for sale $1.8M' info was wrong; it's a $3,995 rental.)",
+   "flags": [
+    "No pets",
+    "No garage"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "yes",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "no",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/0790dc11297c46e3678233e4abe3a11f-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/0790dc11297c46e3678233e4abe3a11f-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/d5357ab80873a4d3579990753714a6c6-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/d5357ab80873a4d3579990753714a6c6-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/f198be4271a099410fce9d53bf392c87-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/f198be4271a099410fce9d53bf392c87-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/522f63f52b3629f197144668d44efe61-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/522f63f52b3629f197144668d44efe61-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/c2a79293d79b8a72f811b52f04d30663-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/c2a79293d79b8a72f811b52f04d30663-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/3519-hoover-st-redwood-city/"
+  },
+  {
+   "slug": "cl-menlo-detached-adu-pets",
+   "name": "Menlo Park detached ADU",
+   "city": "Menlo Park",
+   "rent": 4200,
+   "rentLabel": "$4,200",
+   "beds": 1,
+   "baths": 1,
+   "sqft": 450,
+   "type": "ADU / cottage",
+   "avail": "Jul 1",
+   "pets": "Pets OK",
+   "petsOk": true,
+   "garage": "Carport",
+   "yard": "Private garden \u2014 verify fence",
+   "distMi": 3.5,
+   "bikeMin": 18,
+   "score": 5.0,
+   "tier": "3",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/menlo-park-modern-detached-adu-in-menlo/7933675759.html"
+   },
+   "summary": "Brand-new pet-friendly standalone cottage, well priced \u2014 but a 1bd/450sqft with no garage. Good fallback if you don't need the garage.",
+   "flags": [
+    "1 bedroom",
+    "No garage"
+   ],
+   "criteria": {
+    "beds": "no",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "no",
+    "house": "partial"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00h0h_4ph8ZP0n8Qu_0gw0oM_600x450.jpg",
+     "full": "https://images.craigslist.org/00h0h_4ph8ZP0n8Qu_0gw0oM_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01010_8u0PrtfsAIK_0CI0re_600x450.jpg",
+     "full": "https://images.craigslist.org/01010_8u0PrtfsAIK_0CI0re_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01414_9TfRrZIAmxL_0tu0h2_600x450.jpg",
+     "full": "https://images.craigslist.org/01414_9TfRrZIAmxL_0tu0h2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00Q0Q_802Uloh6Fuy_08K0c2_600x450.jpg",
+     "full": "https://images.craigslist.org/00Q0Q_802Uloh6Fuy_08K0c2_1200x900.jpg"
+    }
+   ],
+   "folder": "candidates/cl-menlo-detached-adu-pets/"
+  },
+  {
+   "slug": "2336-howard-ave-san-carlos",
+   "name": "2336 Howard Ave",
+   "city": "San Carlos",
+   "rent": 5500,
+   "rentLabel": "$5,500",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1000,
+   "type": "House",
+   "avail": "Verify",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "Verify",
+   "yard": "Landscaped",
+   "distMi": 3,
+   "bikeMin": 16,
+   "score": 4.5,
+   "tier": "3",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/2336-Howard-Ave-San-Carlos-CA-94070/15560170_zpid/"
+   },
+   "summary": "Pleasant San Carlos house in budget, <1mi to downtown \u2014 but NO pets and parking/garage unspecified.",
+   "flags": [
+    "No pets",
+    "Garage unconfirmed"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "unknown",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/f15e66f80f60242466cc711d9638a373-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/f15e66f80f60242466cc711d9638a373-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/78a1b77fe56c1b5e2744270e994d1c9a-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/78a1b77fe56c1b5e2744270e994d1c9a-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/20ab0584ff4c1e6570c825c775bead7d-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/20ab0584ff4c1e6570c825c775bead7d-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/069335efc6d062cc449eb4b239bf2e6c-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/069335efc6d062cc449eb4b239bf2e6c-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/42b62b9fa3cd257f8a652466314dbd4b-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/42b62b9fa3cd257f8a652466314dbd4b-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/2336-howard-ave-san-carlos/"
+  },
+  {
+   "slug": "cl-atherton-guest-house",
+   "name": "Atherton guest house (furnished)",
+   "city": "Atherton",
+   "rent": 4100,
+   "rentLabel": "$4,100",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 650,
+   "type": "Guest house",
+   "avail": "Jul 1",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "No garage (driveway)",
+   "yard": "Garden patio",
+   "distMi": 4,
+   "bikeMin": 20,
+   "score": 4.0,
+   "tier": "3",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/atherton-furnished-2br-1ba-guest-house/7936652769.html"
+   },
+   "summary": "Furnished cottage on a quiet Atherton estate at a fair all-in price \u2014 but small (650sqft), no pets, no garage.",
+   "flags": [
+    "No pets",
+    "No garage",
+    "Small / furnished"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "no",
+    "house": "partial"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00B0B_4GCRnKOkagY_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00B0B_4GCRnKOkagY_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00L0L_6ajkMlqAJy5_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00L0L_6ajkMlqAJy5_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01010_eIRUwzXbCjf_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/01010_eIRUwzXbCjf_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00404_50YAz2aFbQo_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00404_50YAz2aFbQo_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01515_auEiyKCdbZR_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/01515_auEiyKCdbZR_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00C0C_gzagwjUXyqt_0CI0lM_600x450.jpg",
+     "full": "https://images.craigslist.org/00C0C_gzagwjUXyqt_0CI0lM_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00V0V_iOAIqvhIi2e_0t20CI_600x450.jpg",
+     "full": "https://images.craigslist.org/00V0V_iOAIqvhIi2e_0t20CI_1200x900.jpg"
+    }
+   ],
+   "folder": "candidates/cl-atherton-guest-house/"
+  },
+  {
+   "slug": "763-college-ave-menlo-park",
+   "name": "763 College Ave",
+   "city": "Menlo Park",
+   "rent": 6500,
+   "rentLabel": "$6,500",
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1620,
+   "type": "House + studio",
+   "avail": "Jul 1",
+   "pets": "Cats / small dogs OK",
+   "petsOk": true,
+   "garage": "Detached parking",
+   "yard": "Large lot \u2014 verify fence",
+   "distMi": 3.7,
+   "bikeMin": 20,
+   "score": 4.0,
+   "tier": "3",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/763-College-Ave-Menlo-Park-CA-94025/15596432_zpid/"
+   },
+   "summary": "Lovely, light, dog-OK home in Allied Arts \u2014 but it's a 2\u20133 month SHORT-TERM sublet, so it doesn't fit a permanent move.",
+   "flags": [
+    "Short-term 2\u20133 months only"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "partial",
+    "garage": "no",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/e74fc6082db8f4295bbbb44bc914e506-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/e74fc6082db8f4295bbbb44bc914e506-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/331bf1d33a126db0ea30c58dc8a6eaf4-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/331bf1d33a126db0ea30c58dc8a6eaf4-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/b1c67dffb56976fc67bcd2a117acaf43-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/b1c67dffb56976fc67bcd2a117acaf43-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/62d5a547ab5733e09b690f189d28233a-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/62d5a547ab5733e09b690f189d28233a-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/1bd95e6dfe26d23dbf5bf22aea597481-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/1bd95e6dfe26d23dbf5bf22aea597481-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/763-college-ave-menlo-park/"
+  },
+  {
+   "slug": "1009-s-norfolk-st-san-mateo",
+   "name": "1009 S Norfolk St",
+   "city": "San Mateo",
+   "rent": 2650,
+   "rentLabel": "$2,650",
+   "beds": 1,
+   "baths": 1,
+   "sqft": 500,
+   "type": "In-law unit",
+   "avail": "Verify",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "Street parking",
+   "yard": "None",
+   "distMi": 7,
+   "bikeMin": 45,
+   "score": 2.0,
+   "tier": "3",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/1009-S-Norfolk-St-San-Mateo-CA-94401/15525824_zpid/"
+   },
+   "summary": "Cheap and bright, but a junior 1bd in-law unit, no pets, no garage/yard, and ~7mi from Veterans Blvd.",
+   "flags": [
+    "1 bedroom",
+    "No pets",
+    "~7mi away"
+   ],
+   "criteria": {
+    "beds": "no",
+    "busy": "partial",
+    "light": "yes",
+    "yard": "no",
+    "dist": "no",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "no",
+    "house": "no"
+   },
+   "photos": [
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/625c630eab5409c94eeec2ddbd01f629-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/625c630eab5409c94eeec2ddbd01f629-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/75bf2e199c0f467d9360c24c40aafa66-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/75bf2e199c0f467d9360c24c40aafa66-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/6ddcf7d59fc60727352e15c7d837ed9b-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/6ddcf7d59fc60727352e15c7d837ed9b-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/244bd814c4624b90720d03fc04b7cfe3-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/244bd814c4624b90720d03fc04b7cfe3-cc_ft_1536.jpg"
+    },
+    {
+     "thumb": "https://photos.zillowstatic.com/fp/50f4f11839a2e2ff74d4916976ec1780-cc_ft_576.jpg",
+     "full": "https://photos.zillowstatic.com/fp/50f4f11839a2e2ff74d4916976ec1780-cc_ft_1536.jpg"
+    }
+   ],
+   "folder": "candidates/1009-s-norfolk-st-san-mateo/"
+  },
+  {
+   "slug": "307-santa-clara-ave-redwood-city",
+   "name": "307 Santa Clara Ave",
+   "city": "Redwood City",
+   "rent": 6500,
+   "rentLabel": "~$6,500",
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1950,
+   "type": "House",
+   "avail": "Not available",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "3-car garage",
+   "yard": "Fantastic backyard",
+   "distMi": 2,
+   "bikeMin": 12,
+   "score": 3.0,
+   "tier": "x",
+   "defaultStatus": "passed",
+   "source": {
+    "name": "Zumper",
+    "url": "https://www.zumper.com/address/307-santa-clara-ave-redwood-city-ca-94061-usa"
+   },
+   "summary": "Great house on paper (3-car garage, big backyard, studio suite) \u2014 but it's a notify-me (not currently available) and NO pets.",
+   "flags": [
+    "Not currently available",
+    "No pets"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "partial",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "yes",
+    "ceilings": "unknown",
+    "rent": "partial",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [],
+   "folder": "candidates/307-santa-clara-ave-redwood-city/"
+  },
+  {
+   "slug": "427-clinton-st-redwood-city",
+   "name": "427 Clinton St",
+   "city": "Redwood City",
+   "rent": null,
+   "rentLabel": "Off market",
+   "beds": 3,
+   "baths": 3,
+   "sqft": 1463,
+   "type": "House",
+   "avail": "Off market",
+   "pets": "\u2014",
+   "petsOk": null,
+   "garage": "~290 sqft garage",
+   "yard": "6,500 sqft lot",
+   "distMi": 1.5,
+   "bikeMin": 9,
+   "score": 2.0,
+   "tier": "x",
+   "defaultStatus": "passed",
+   "source": {
+    "name": "Zillow",
+    "url": "https://www.zillow.com/homedetails/427-Clinton-St-Redwood-City-CA-94062/15564200_zpid/"
+   },
+   "summary": "Off market \u2014 not a rental. The earlier ~$5,700 figure was a Rent Zestimate. Watch item only if it ever lists.",
+   "flags": [
+    "Off market \u2014 not for rent"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "partial",
+    "light": "unknown",
+    "yard": "partial",
+    "dist": "yes",
+    "ceilings": "unknown",
+    "rent": "unknown",
+    "garage": "partial",
+    "house": "yes"
+   },
+   "photos": [],
+   "folder": "candidates/427-clinton-st-redwood-city/"
+  }
+ ]
+}
