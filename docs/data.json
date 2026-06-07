@@ -2,7 +2,7 @@
  "meta": {
   "updated": "2026-06-07",
   "anchor": "1155 Veterans Blvd, Redwood City",
-  "count": 19
+  "count": 23
  },
  "candidates": [
   {
@@ -54,6 +54,7 @@
      "full": "https://photos.zillowstatic.com/fp/4e7c01f329c02a5077a97fdfbdd174d9-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/106-oak-ave-redwood-city/"
   },
   {
@@ -118,6 +119,7 @@
      "full": "https://images.craigslist.org/00p0p_c8DzBvpHMr8_0fr09I_1200x900.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/cl-belmont-modern-3d/"
   },
   {
@@ -182,6 +184,7 @@
      "full": "https://photos.zillowstatic.com/fp/77ac787f33f5be7d9a9d4844bfa85040-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/1382-valota-rd-redwood-city/"
   },
   {
@@ -225,6 +228,7 @@
     "house": "yes"
    },
    "photos": [],
+   "caltrain": "",
    "folder": "candidates/1740-whipple-ave-redwood-city/"
   },
   {
@@ -289,6 +293,7 @@
      "full": "https://photos.zillowstatic.com/fp/72619c38cd3399203aecbb858a283b1f-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/1-arroyo-view-cir-belmont/"
   },
   {
@@ -361,6 +366,7 @@
      "full": "https://images.craigslist.org/00x0x_hAKugxke0H5_0gw0aW_1200x900.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/cl-rwc-201-yarborough/"
   },
   {
@@ -432,6 +438,7 @@
      "full": "https://images.craigslist.org/00A0A_bhgO8GXk5Fj_0cI08k_1200x900.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/cl-menlo-remodeled-yards/"
   },
   {
@@ -504,6 +511,7 @@
      "full": "https://images.craigslist.org/00404_gIHvwnFyKPa_0gw0b1_1200x900.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/cl-sancarlos-2bed-bonus/"
   },
   {
@@ -547,6 +555,7 @@
     "house": "yes"
    },
    "photos": [],
+   "caltrain": "",
    "folder": "candidates/cl-rwc-house-lease-jul1/"
   },
   {
@@ -620,6 +629,7 @@
      "full": "https://images.craigslist.org/01313_89b16CePiMo_0CI0t2_1200x900.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/cl-rwc-modern-farm-orchard/"
   },
   {
@@ -685,6 +695,7 @@
      "full": "https://photos.zillowstatic.com/fp/b154ddcf76ae084bc277807cdfb59600-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/1405-el-camino-real-144-redwood-city/"
   },
   {
@@ -749,6 +760,7 @@
      "full": "https://photos.zillowstatic.com/fp/c2a79293d79b8a72f811b52f04d30663-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/3519-hoover-st-redwood-city/"
   },
   {
@@ -809,6 +821,7 @@
      "full": "https://images.craigslist.org/00Q0Q_802Uloh6Fuy_08K0c2_1200x900.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/cl-menlo-detached-adu-pets/"
   },
   {
@@ -873,6 +886,7 @@
      "full": "https://photos.zillowstatic.com/fp/42b62b9fa3cd257f8a652466314dbd4b-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/2336-howard-ave-san-carlos/"
   },
   {
@@ -946,6 +960,7 @@
      "full": "https://images.craigslist.org/00V0V_iOAIqvhIi2e_0t20CI_1200x900.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/cl-atherton-guest-house/"
   },
   {
@@ -1009,6 +1024,7 @@
      "full": "https://photos.zillowstatic.com/fp/1bd95e6dfe26d23dbf5bf22aea597481-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/763-college-ave-menlo-park/"
   },
   {
@@ -1074,6 +1090,7 @@
      "full": "https://photos.zillowstatic.com/fp/50f4f11839a2e2ff74d4916976ec1780-cc_ft_1536.jpg"
     }
    ],
+   "caltrain": "",
    "folder": "candidates/1009-s-norfolk-st-san-mateo/"
   },
   {
@@ -1117,6 +1134,7 @@
     "house": "yes"
    },
    "photos": [],
+   "caltrain": "",
    "folder": "candidates/307-santa-clara-ave-redwood-city/"
   },
   {
@@ -1159,7 +1177,300 @@
     "house": "yes"
    },
    "photos": [],
+   "caltrain": "",
    "folder": "candidates/427-clinton-st-redwood-city/"
+  },
+  {
+   "slug": "cl-sm-2-olive-ct",
+   "name": "2 Olive Ct",
+   "city": "San Mateo",
+   "rent": 3608,
+   "rentLabel": "$3,608",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1030,
+   "type": "House",
+   "avail": "Now",
+   "pets": "Cats & dogs OK",
+   "petsOk": true,
+   "garage": "Attached garage",
+   "yard": "Verify fence",
+   "distMi": 6.5,
+   "bikeMin": 40,
+   "score": 7.0,
+   "tier": "1",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/welcome-to-this-fully-renovated/7938991499.html"
+   },
+   "summary": "Fully renovated pet-friendly house with a garage at $3,608, ~13 min train to RWC from San Mateo. Excellent value; 2bd/1ba.",
+   "flags": [
+    "2bd/1ba",
+    "Verify yard fence"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "partial",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00M0M_kUiT8WcMCdk_0lG0gg_600x450.jpg",
+     "full": "https://images.craigslist.org/00M0M_kUiT8WcMCdk_0lG0gg_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01515_dWinKX4PI12_0lG0gg_600x450.jpg",
+     "full": "https://images.craigslist.org/01515_dWinKX4PI12_0lG0gg_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00L0L_4bq0veKOArY_0lG0gg_600x450.jpg",
+     "full": "https://images.craigslist.org/00L0L_4bq0veKOArY_0lG0gg_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00l0l_7HDOzcMkWIU_0lG0gg_600x450.jpg",
+     "full": "https://images.craigslist.org/00l0l_7HDOzcMkWIU_0lG0gg_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00I0I_apbl3cS1X6a_0lG0gg_600x450.jpg",
+     "full": "https://images.craigslist.org/00I0I_apbl3cS1X6a_0lG0gg_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00M0M_fQICdtugNZi_0lG0gg_600x450.jpg",
+     "full": "https://images.craigslist.org/00M0M_fQICdtugNZi_0lG0gg_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00505_dBQy8oRO1tu_0lG0gg_600x450.jpg",
+     "full": "https://images.craigslist.org/00505_dBQy8oRO1tu_0lG0gg_1200x900.jpg"
+    }
+   ],
+   "caltrain": "San Mateo station ~1mi \u00b7 ~13min train to RWC",
+   "folder": "candidates/cl-sm-2-olive-ct/"
+  },
+  {
+   "slug": "cl-sm-1746-dewey",
+   "name": "1746 Dewey St (Parkside)",
+   "city": "San Mateo",
+   "rent": 5000,
+   "rentLabel": "$5,000",
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1530,
+   "type": "House",
+   "avail": "Now",
+   "pets": "Verify",
+   "petsOk": null,
+   "garage": "2-car attached garage",
+   "yard": "Backyard \u2014 verify fence",
+   "distMi": 6.5,
+   "bikeMin": 40,
+   "score": 7.0,
+   "tier": "1",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/san-mateo-beautiful-3br-ba-parrside-gem/7939224423.html"
+   },
+   "summary": "Bright 3bd house with an ideal 2-car garage gym + backyard at $5,000, ~12 min train to RWC. Verify pets.",
+   "flags": [
+    "Verify pets",
+    "Verify yard fence"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/01515_bKm4g93oRZC_0ak07K_600x450.jpg",
+     "full": "https://images.craigslist.org/01515_bKm4g93oRZC_0ak07K_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00t0t_60d1vAICMpQ_0ak07K_600x450.jpg",
+     "full": "https://images.craigslist.org/00t0t_60d1vAICMpQ_0ak07K_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00F0F_5qO8Sw42qs5_0ak07K_600x450.jpg",
+     "full": "https://images.craigslist.org/00F0F_5qO8Sw42qs5_0ak07K_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00Z0Z_lqLfi1eS5w8_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00Z0Z_lqLfi1eS5w8_07K0ak_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00X0X_4toHm44COMy_0ak07K_600x450.jpg",
+     "full": "https://images.craigslist.org/00X0X_4toHm44COMy_0ak07K_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/01616_3dlhwIqlCxY_0ak07K_600x450.jpg",
+     "full": "https://images.craigslist.org/01616_3dlhwIqlCxY_0ak07K_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00606_bX83OYUnXcZ_0ak07K_600x450.jpg",
+     "full": "https://images.craigslist.org/00606_bX83OYUnXcZ_0ak07K_1200x900.jpg"
+    }
+   ],
+   "caltrain": "Hayward Park ~1mi \u00b7 ~12min train to RWC",
+   "folder": "candidates/cl-sm-1746-dewey/"
+  },
+  {
+   "slug": "cl-sm-palm-ave",
+   "name": "Palm Ave (San Mateo)",
+   "city": "San Mateo",
+   "rent": 4200,
+   "rentLabel": "$4,200",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1080,
+   "type": "House",
+   "avail": "Jun 19",
+   "pets": "Verify",
+   "petsOk": null,
+   "garage": "1-car attached garage",
+   "yard": "Private yard \u2014 verify fence",
+   "distMi": 6.5,
+   "bikeMin": 40,
+   "score": 6.5,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/san-mateo-charming-single-family-house/7938899197.html"
+   },
+   "summary": "Charming, light 2bd house with a private yard, walkable to Caltrain at $4,200. Compromises: 1 bath, 1-car garage. Verify pets.",
+   "flags": [
+    "Verify pets",
+    "1 bath"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "partial",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/01717_7tBLnFWDdCH_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/01717_7tBLnFWDdCH_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00f0f_ebODrDW8yG7_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00f0f_ebODrDW8yG7_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00x0x_iKll6lc8IwT_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00x0x_iKll6lc8IwT_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00505_aBtFONFuLzG_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00505_aBtFONFuLzG_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00b0b_bGJkVEa4IcC_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00b0b_bGJkVEa4IcC_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00Y0Y_4oCCq0VFyVV_0CI0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00Y0Y_4oCCq0VFyVV_0CI0t2_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00j0j_63WzgXpKVV9_0lM0t2_600x450.jpg",
+     "full": "https://images.craigslist.org/00j0j_63WzgXpKVV9_0lM0t2_1200x900.jpg"
+    }
+   ],
+   "caltrain": "Walk to San Mateo Caltrain \u00b7 ~13min to RWC",
+   "folder": "candidates/cl-sm-palm-ave/"
+  },
+  {
+   "slug": "cl-burlingame-easton",
+   "name": "Westside Burlingame (Easton)",
+   "city": "Burlingame",
+   "rent": 5100,
+   "rentLabel": "$5,100",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1200,
+   "type": "House",
+   "avail": "Verify",
+   "pets": "Verify",
+   "petsOk": null,
+   "garage": "Detached garage",
+   "yard": "Private patio \u2014 verify yard",
+   "distMi": 9,
+   "bikeMin": 55,
+   "score": 6.5,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/burlingame-bedroom-bath-easton-addition/7935509988.html"
+   },
+   "summary": "Charming Westside Burlingame house with a den + detached garage, ~17 min train to RWC. 2bd+den/1ba; verify pets.",
+   "flags": [
+    "Verify pets",
+    "1 bath"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "partial",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00Z0Z_i2v7yQLvqv5_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00Z0Z_i2v7yQLvqv5_07K0ak_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00V0V_apvDgkZckrP_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00V0V_apvDgkZckrP_07K0ak_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00l0l_8MJe462pJvf_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00l0l_8MJe462pJvf_07K0ak_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00t0t_dEBVpCW4yB6_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00t0t_dEBVpCW4yB6_07K0ak_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00l0l_l0rKfzPNmoe_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00l0l_l0rKfzPNmoe_07K0ak_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00B0B_i98JEcwwURn_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00B0B_i98JEcwwURn_07K0ak_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00y0y_1ldL0jVavv5_07K0ak_600x450.jpg",
+     "full": "https://images.craigslist.org/00y0y_1ldL0jVavv5_07K0ak_1200x900.jpg"
+    }
+   ],
+   "caltrain": "Burlingame station ~1mi \u00b7 ~17min train to RWC",
+   "folder": "candidates/cl-burlingame-easton/"
   }
  ]
 }

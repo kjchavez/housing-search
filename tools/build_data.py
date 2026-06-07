@@ -37,6 +37,18 @@ CL_PHOTOS = {
  "cl-belmont-modern-3d":"00U0U_2orcTjUffYG_0gK0d6 01212_6dvlTh7FjhL_0fm09J 00f0f_ajr49dHEuf4_0fl09L 00707_ipbBqtsiIVp_0fs09J 00p0p_c8DzBvpHMr8_0fr09I",
  "cl-menlo-detached-adu-pets":"00h0h_4ph8ZP0n8Qu_0gw0oM 01010_8u0PrtfsAIK_0CI0re 01414_9TfRrZIAmxL_0tu0h2 00Q0Q_802Uloh6Fuy_08K0c2",
  "cl-atherton-guest-house":"00B0B_4GCRnKOkagY_0CI0t2 00L0L_6ajkMlqAJy5_0CI0t2 01010_eIRUwzXbCjf_0CI0t2 00404_50YAz2aFbQo_0CI0t2 01515_auEiyKCdbZR_0CI0t2 00C0C_gzagwjUXyqt_0CI0lM 00V0V_iOAIqvhIi2e_0t20CI",
+ "cl-sm-2-olive-ct":"00M0M_kUiT8WcMCdk_0lG0gg 01515_dWinKX4PI12_0lG0gg 00L0L_4bq0veKOArY_0lG0gg 00l0l_7HDOzcMkWIU_0lG0gg 00I0I_apbl3cS1X6a_0lG0gg 00M0M_fQICdtugNZi_0lG0gg 00505_dBQy8oRO1tu_0lG0gg",
+ "cl-sm-1746-dewey":"01515_bKm4g93oRZC_0ak07K 00t0t_60d1vAICMpQ_0ak07K 00F0F_5qO8Sw42qs5_0ak07K 00Z0Z_lqLfi1eS5w8_07K0ak 00X0X_4toHm44COMy_0ak07K 01616_3dlhwIqlCxY_0ak07K 00606_bX83OYUnXcZ_0ak07K",
+ "cl-sm-palm-ave":"01717_7tBLnFWDdCH_0CI0t2 00f0f_ebODrDW8yG7_0CI0t2 00x0x_iKll6lc8IwT_0CI0t2 00505_aBtFONFuLzG_0CI0t2 00b0b_bGJkVEa4IcC_0CI0t2 00Y0Y_4oCCq0VFyVV_0CI0t2 00j0j_63WzgXpKVV9_0lM0t2",
+ "cl-burlingame-easton":"00Z0Z_i2v7yQLvqv5_07K0ak 00V0V_apvDgkZckrP_07K0ak 00l0l_8MJe462pJvf_07K0ak 00t0t_dEBVpCW4yB6_07K0ak 00l0l_l0rKfzPNmoe_07K0ak 00B0B_i98JEcwwURn_07K0ak 00y0y_1ldL0jVavv5_07K0ak",
+}
+
+# Caltrain commute note per slug (shown on the card for corridor homes that aren't bike-to-work)
+CALTRAIN = {
+ "cl-sm-2-olive-ct":"San Mateo station ~1mi · ~13min train to RWC",
+ "cl-sm-1746-dewey":"Hayward Park ~1mi · ~12min train to RWC",
+ "cl-sm-palm-ave":"Walk to San Mateo Caltrain · ~13min to RWC",
+ "cl-burlingame-easton":"Burlingame station ~1mi · ~17min train to RWC",
 }
 def cphotos(slug):
     return [{"thumb": f"https://images.craigslist.org/{b}_600x450.jpg",
@@ -163,6 +175,31 @@ DATA = [
   "Zillow","https://www.zillow.com/homedetails/427-Clinton-St-Redwood-City-CA-94062/15564200_zpid/",
   "Off market — not a rental. The earlier ~$5,700 figure was a Rent Zestimate. Watch item only if it ever lists.",
   ["Off market — not for rent"], C("yes","partial","unknown","partial","yes","unknown","unknown","partial","yes")),
+
+ # ---- Caltrain-corridor expansion (Burlingame → Mountain View) ----
+ ("cl-sm-2-olive-ct","2 Olive Ct","San Mateo",3608,"$3,608",2,1,1030,"House","Now",
+  "Cats & dogs OK",True,"Attached garage","Verify fence",6.5,40,7.0,"1","new",
+  "Craigslist","https://sfbay.craigslist.org/pen/apa/d/welcome-to-this-fully-renovated/7938991499.html",
+  "Fully renovated pet-friendly house with a garage at $3,608, ~13 min train to RWC from San Mateo. Excellent value; 2bd/1ba.",
+  ["2bd/1ba","Verify yard fence"], C("yes","partial","partial","partial","partial","unknown","yes","yes","yes")),
+
+ ("cl-sm-1746-dewey","1746 Dewey St (Parkside)","San Mateo",5000,"$5,000",3,2,1530,"House","Now",
+  "Verify",None,"2-car attached garage","Backyard — verify fence",6.5,40,7.0,"1","new",
+  "Craigslist","https://sfbay.craigslist.org/pen/apa/d/san-mateo-beautiful-3br-ba-parrside-gem/7939224423.html",
+  "Bright 3bd house with an ideal 2-car garage gym + backyard at $5,000, ~12 min train to RWC. Verify pets.",
+  ["Verify pets","Verify yard fence"], C("yes","yes","yes","partial","partial","unknown","yes","yes","yes")),
+
+ ("cl-sm-palm-ave","Palm Ave (San Mateo)","San Mateo",4200,"$4,200",2,1,1080,"House","Jun 19",
+  "Verify",None,"1-car attached garage","Private yard — verify fence",6.5,40,6.5,"2","new",
+  "Craigslist","https://sfbay.craigslist.org/pen/apa/d/san-mateo-charming-single-family-house/7938899197.html",
+  "Charming, light 2bd house with a private yard, walkable to Caltrain at $4,200. Compromises: 1 bath, 1-car garage. Verify pets.",
+  ["Verify pets","1 bath"], C("yes","yes","yes","partial","partial","unknown","yes","partial","yes")),
+
+ ("cl-burlingame-easton","Westside Burlingame (Easton)","Burlingame",5100,"$5,100",2,1,1200,"House","Verify",
+  "Verify",None,"Detached garage","Private patio — verify yard",9,55,6.5,"2","new",
+  "Craigslist","https://sfbay.craigslist.org/pen/apa/d/burlingame-bedroom-bath-easton-addition/7935509988.html",
+  "Charming Westside Burlingame house with a den + detached garage, ~17 min train to RWC. 2bd+den/1ba; verify pets.",
+  ["Verify pets","1 bath"], C("yes","yes","partial","partial","partial","unknown","yes","yes","yes")),
 ]
 
 PHOTO_FALLBACK = {  # slugs whose photos come from craigslist or none
@@ -182,6 +219,7 @@ for row in DATA:
         "distMi":distMi,"bikeMin":bikeMin,"score":score,"tier":tier,
         "defaultStatus":status,"source":{"name":srcName,"url":srcUrl},
         "summary":summary,"flags":flags,"criteria":crit,"photos":photos,
+        "caltrain":CALTRAIN.get(slug,""),
         "folder":f"candidates/{slug}/",
     })
 

@@ -1,6 +1,7 @@
 # Housing Search — Master Shortlist
 
-_Last updated: 2026-06-07 · Target: 2BR+ house, fenced yard (dog), garage gym, near 1155 Veterans Blvd RWC, $4–6K (stretch $7K), move ~30 days._
+_Last updated: 2026-06-07 · Target: 2BR+ house, fenced yard (dog), garage gym, $4–6K (stretch $7K), move ~30 days._
+_Scope: **Caltrain corridor, Burlingame → Mountain View** — easy access to a Caltrain station for the commute into Redwood City (work: 1155 Veterans Blvd)._
 
 **Legend:** ✅ meets · ⚠️ partial/unverified · ❌ fails · 🐕 dog OK · 🏋️ garage gym-usable
 
@@ -34,6 +35,17 @@ _Last updated: 2026-06-07 · Target: 2BR+ house, fenced yard (dog), garage gym, 
 | 15 | Atherton guest house (furnished) | $4,100 | 2/1 | no pets, no garage | 4 | `cl-atherton-guest-house` |
 | 16 | 763 College Ave, Menlo Park | $6,500 | 3/2 | 🐕 OK but **2–3 mo short-term only** | 4 | `763-college-ave-menlo-park` |
 | 17 | 1009 S Norfolk St, San Mateo | $2,650 | 1/1 | junior 1bd, no pets, ~7 mi | 2 | `1009-s-norfolk-st-san-mateo` |
+
+## 🚆 Caltrain-corridor additions (Burlingame / San Mateo)
+_New with the expanded scope — commute by Caltrain into RWC (12–17 min). All confirmed active on Craigslist, with photos._
+| Home | Rent | Bd/Ba | 🐕 | 🏋️ Garage | Yard | Caltrain → RWC | Score | Folder |
+|---|---|---|---|---|---|---|---|---|
+| **2 Olive Ct, San Mateo** | $3,608 | 2/1 | ✅ cats/dogs | ✅ attached | ⚠️ verify | San Mateo ~1mi · ~13min | **7** | `cl-sm-2-olive-ct` |
+| **1746 Dewey St, San Mateo** (Parkside) | $5,000 | 3/2 | ❓ verify | ✅✅ 2-car | ⚠️ verify | Hayward Park ~1mi · ~12min | **7** | `cl-sm-1746-dewey` |
+| Palm Ave, San Mateo | $4,200 | 2/1 | ❓ verify | ⚠️ 1-car | ✅ private | Walk to station · ~13min | 6.5 | `cl-sm-palm-ave` |
+| Westside Burlingame (Easton) | $5,100 | 2+den/1 | ❓ verify | ✅ detached | ⚠️ patio | Burlingame ~1mi · ~17min | 6.5 | `cl-burlingame-easton` |
+
+> **Coverage note — Palo Alto & Mountain View:** in-budget *houses* near Caltrain there are genuinely scarce (expensive market) and Zillow's search is heavily bot-throttled. WebSearch surfaced several PA/MV "listings" (137 Margo, 1408 Lodi, 1303 California, 266 Ventura) but each turned out **off-market** (Rent Zestimates, not active). Worth re-sweeping in a few days; happy to keep watching.
 
 ## ❌ Not available (watch items)
 | Home | Why | Folder |

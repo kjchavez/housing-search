@@ -131,7 +131,7 @@ function card(c){
       <div class="loc">${c.city} · ${c.type}</div>
       <div class="rentline"><span class="rent">${c.rentLabel}</span>
         <span class="meta">${c.beds}bd · ${c.baths}ba · ${c.sqft?c.sqft.toLocaleString()+" sqft":"—"}</span></div>
-      <div class="meta">🚲 ~${c.bikeMin}min (${c.distMi}mi) to Veterans · 📅 ${c.avail}</div>
+      <div class="meta">${c.caltrain?`🚆 ${c.caltrain}`:`🚲 ~${c.bikeMin}min (${c.distMi}mi) to Veterans`} · 📅 ${c.avail}</div>
       <div class="badges">${badges(c)}</div>
       <div class="statusbar">
         <span class="dot s-${st}"></span>
@@ -176,6 +176,7 @@ function openModal(c){
       <div class="k">Garage</div><div>${c.garage}</div>
       <div class="k">Yard</div><div>${c.yard}</div>
       <div class="k">To Veterans Blvd</div><div>~${c.distMi} mi · ~${c.bikeMin} min bike</div>
+      ${c.caltrain?`<div class="k">Caltrain</div><div>${c.caltrain}</div>`:""}
       <div class="k">Available</div><div>${c.avail}</div>
       <div class="k">Listing</div><div><a href="${c.source.url}" target="_blank" rel="noopener">${c.source.name} ↗</a></div>
     </div>
