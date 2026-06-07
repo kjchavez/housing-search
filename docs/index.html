@@ -29,6 +29,7 @@
       </select>
       <select id="statusFilter" title="Filter by status"></select>
       <button class="btn" id="reset">Reset</button>
+      <button class="btn" id="share" title="Move your progress to your phone">📲 Send to phone</button>
       <button class="btn" id="export" title="Download your status + notes">⬇ Export</button>
       <button class="btn" id="importBtn" title="Load a saved progress file">⬆ Import</button>
       <input id="importFile" type="file" accept="application/json" style="display:none">
@@ -75,8 +76,32 @@
   </div>
 </div>
 
+<!-- share / send-to-phone modal -->
+<div class="modal" id="shareModal">
+  <div class="sheet" style="max-width:440px">
+    <div class="top">
+      <h2>📲 Send to your phone</h2>
+      <button class="close" aria-label="Close">✕</button>
+    </div>
+    <div style="padding:4px 20px 22px">
+      <p style="color:var(--muted);font-size:13.5px;margin-top:0">
+        Your status &amp; notes live in this browser. To continue on your phone,
+        <b>scan this QR code</b> with the phone’s camera — it opens the site with your progress loaded.
+        Or tap <b>Copy link</b> and send it to yourself.</p>
+      <p id="shareEmpty" class="qrnote" style="display:none">You haven’t set any statuses or notes yet — there’s nothing to transfer. Set some first, then come back.</p>
+      <div id="qr" style="display:flex;justify-content:center;background:#fff;border-radius:12px;padding:10px;margin:6px 0 14px"></div>
+      <div style="display:flex;gap:8px">
+        <input id="shareUrl" readonly style="flex:1;font-size:12px" onclick="this.select()">
+        <button class="btn" id="copyShare">Copy link</button>
+      </div>
+      <p class="qrnote" style="margin-bottom:0">Tip: the link carries your data in the page address itself (after <code>#</code>), so it’s never sent to any server. Treat it like your notes — only share it with yourself.</p>
+    </div>
+  </div>
+</div>
+
 <div class="lightbox" id="lightbox"><img alt=""></div>
 
+<script src="vendor/qrcode.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

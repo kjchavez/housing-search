@@ -15,6 +15,22 @@ const MATCH_ICON = {yes:"✅",partial:"⚠️",no:"❌",unknown:"❓"};
 let DATA=[], STORE=loadStore();
 const state={q:"",sort:"score",tiers:new Set(),flags:new Set(),status:"all"};
 
+/* ---- cross-device transfer: share link + QR + auto-import on open ---- */
+function b64encode(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o))));}
+function b64decode(s){return JSON.parse(decodeURIComponent(escape(atob(s))));}
+function shareURL(){return location.origin+location.pathname+"#s="+encodeURIComponent(b64encode(STORE));}
+function importFromHash(){
+  const m=location.hash.match(/[#&]s=([^&]+)/); if(!m) return;
+  try{
+    const inc=b64decode(decodeURIComponent(m[1])); let n=0;
+    for(const k in inc){STORE[k]=Object.assign({},STORE[k]||{},inc[k]);n++;}
+    saveStore();
+    history.replaceState(null,"",location.pathname+location.search);
+    setTimeout(()=>toast(`Loaded saved progress for ${n} home${n!==1?"s":""} from the link.`),350);
+  }catch(e){console.warn("share import failed",e);}
+}
+importFromHash();
+
 function loadStore(){try{return JSON.parse(localStorage.getItem(LS))||{}}catch{return{}}}
 function saveStore(){localStorage.setItem(LS,JSON.stringify(STORE))}
 function rec(slug){return STORE[slug]||(STORE[slug]={})}
@@ -52,6 +68,13 @@ function buildChips(){
   document.getElementById("export").onclick=exportProgress;
   document.getElementById("importBtn").onclick=()=>document.getElementById("importFile").click();
   document.getElementById("importFile").onchange=importProgress;
+  document.getElementById("share").onclick=openShare;
+  document.getElementById("copyShare").onclick=()=>{
+    const i=document.getElementById("shareUrl"); i.select();
+    const done=()=>toast("Link copied — text or email it to your phone, then open it.");
+    if(navigator.clipboard) navigator.clipboard.writeText(i.value).then(done).catch(()=>{document.execCommand("copy");done();});
+    else{document.execCommand("copy");done();}
+  };
 }
 
 function passes(c){
@@ -173,15 +196,36 @@ function closeModal(){document.getElementById("modal").classList.remove("open");
 function lightbox(src){const lb=document.getElementById("lightbox");lb.querySelector("img").src=src;lb.classList.add("open");}
 
 document.addEventListener("click",e=>{
-  if(e.target.id==="modal"||e.target.classList.contains("close"))closeModal();
+  if(e.target.classList.contains("modal"))e.target.classList.remove("open");          // backdrop click
+  if(e.target.classList.contains("close")){const m=e.target.closest(".modal");if(m)m.classList.remove("open");}
   if(e.target.id==="lightbox")e.target.classList.remove("open");
 });
-document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModal();document.getElementById("lightbox").classList.remove("open");}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){document.querySelectorAll(".modal.open,.lightbox.open").forEach(m=>m.classList.remove("open"));}});
 
 function exportProgress(){
   const blob=new Blob([JSON.stringify(STORE,null,2)],{type:"application/json"});
   const a=document.createElement("a");a.href=URL.createObjectURL(blob);
   a.download="housing-progress.json";a.click();
+}
+function toast(msg){
+  let t=document.getElementById("toast");
+  if(!t){t=document.createElement("div");t.id="toast";document.body.appendChild(t);}
+  t.textContent=msg;t.classList.add("show");
+  clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove("show"),4500);
+}
+function openShare(){
+  const empty=!Object.keys(STORE).length;
+  const url=shareURL();
+  document.getElementById("shareUrl").value=url;
+  document.getElementById("shareEmpty").style.display=empty?"block":"none";
+  renderQR(url);
+  document.getElementById("shareModal").classList.add("open");
+}
+function renderQR(url){
+  const el=document.getElementById("qr"); el.innerHTML="";
+  if(url.length>1800){el.innerHTML='<p class="qrnote">Your notes are long, so the QR code would be too dense to scan. Use <b>Copy link</b> instead.</p>';return;}
+  try{const t=qrcode(0,"M");t.addData(url);t.make();el.innerHTML=t.createImgTag(5,12);}
+  catch(e){el.innerHTML='<p class="qrnote">Couldn’t fit the data in a QR code — use <b>Copy link</b>.</p>';}
 }
 function importProgress(e){
   const f=e.target.files[0];if(!f)return;
