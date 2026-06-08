@@ -2,7 +2,7 @@
  "meta": {
   "updated": "2026-06-07",
   "anchor": "1155 Veterans Blvd, Redwood City",
-  "count": 23
+  "count": 29
  },
  "candidates": [
   {
@@ -1471,6 +1471,419 @@
    ],
    "caltrain": "Burlingame station ~1mi \u00b7 ~17min train to RWC",
    "folder": "candidates/cl-burlingame-easton/"
+  },
+  {
+   "slug": "1623-howard-ave-san-carlos",
+   "name": "1623 Howard Ave",
+   "city": "San Carlos",
+   "rent": 5495,
+   "rentLabel": "$5,495",
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1783,
+   "type": "House",
+   "avail": "Now",
+   "pets": "Dogs & cats OK",
+   "petsOk": true,
+   "garage": "2-car garage + 2 sheds",
+   "yard": "Huge backyard (deck/patio/fruit trees)",
+   "distMi": 3,
+   "bikeMin": 16,
+   "score": 8.5,
+   "tier": "1",
+   "defaultStatus": "to-contact",
+   "source": {
+    "name": "Apartments.com",
+    "url": "https://www.apartments.com/1623-howard-ave-san-carlos-ca/8r5pnt0/"
+   },
+   "summary": "Checks nearly every box: 3bd house, dogs OK, 2-car garage gym, big sunny yard, high ceilings, ~7-min train to RWC at $5,495. New front-runner.",
+   "flags": [
+    "Verify full yard fencing"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "yes",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "img/1623-howard-ave-san-carlos/01.jpg",
+     "full": "img/1623-howard-ave-san-carlos/01.jpg"
+    },
+    {
+     "thumb": "img/1623-howard-ave-san-carlos/02.jpg",
+     "full": "img/1623-howard-ave-san-carlos/02.jpg"
+    },
+    {
+     "thumb": "img/1623-howard-ave-san-carlos/03.jpg",
+     "full": "img/1623-howard-ave-san-carlos/03.jpg"
+    },
+    {
+     "thumb": "img/1623-howard-ave-san-carlos/04.jpg",
+     "full": "img/1623-howard-ave-san-carlos/04.jpg"
+    },
+    {
+     "thumb": "img/1623-howard-ave-san-carlos/05.jpg",
+     "full": "img/1623-howard-ave-san-carlos/05.jpg"
+    },
+    {
+     "thumb": "img/1623-howard-ave-san-carlos/06.jpg",
+     "full": "img/1623-howard-ave-san-carlos/06.jpg"
+    }
+   ],
+   "caltrain": "San Carlos station ~0.8mi \u00b7 ~7min train to RWC",
+   "folder": "candidates/1623-howard-ave-san-carlos/"
+  },
+  {
+   "slug": "228-s-rengstorff-mountain-view",
+   "name": "228 S Rengstorff Ave",
+   "city": "Mountain View",
+   "rent": 4500,
+   "rentLabel": "$4,500",
+   "beds": 4,
+   "baths": 2,
+   "sqft": 1219,
+   "type": "House",
+   "avail": "Verify",
+   "pets": "Verify",
+   "petsOk": null,
+   "garage": "Detached garage",
+   "yard": "Private fenced backyard",
+   "distMi": 7,
+   "bikeMin": 42,
+   "score": 6.5,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Apartments.com",
+    "url": "https://www.apartments.com/4-br-2-bath-house-228-s-rengstorff-ave-mountain-view-ca/v77dqgf/"
+   },
+   "summary": "Spacious 4bd MV house (3bd + back studio) with a detached garage gym and private fenced yard at $4,500, ~18 min train to RWC. Verify pets.",
+   "flags": [
+    "Verify pets",
+    "Rengstorff traffic"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "partial",
+    "light": "partial",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "img/228-s-rengstorff-mountain-view/01.jpg",
+     "full": "img/228-s-rengstorff-mountain-view/01.jpg"
+    },
+    {
+     "thumb": "img/228-s-rengstorff-mountain-view/02.jpg",
+     "full": "img/228-s-rengstorff-mountain-view/02.jpg"
+    },
+    {
+     "thumb": "img/228-s-rengstorff-mountain-view/03.jpg",
+     "full": "img/228-s-rengstorff-mountain-view/03.jpg"
+    },
+    {
+     "thumb": "img/228-s-rengstorff-mountain-view/04.jpg",
+     "full": "img/228-s-rengstorff-mountain-view/04.jpg"
+    },
+    {
+     "thumb": "img/228-s-rengstorff-mountain-view/05.jpg",
+     "full": "img/228-s-rengstorff-mountain-view/05.jpg"
+    },
+    {
+     "thumb": "img/228-s-rengstorff-mountain-view/06.jpg",
+     "full": "img/228-s-rengstorff-mountain-view/06.jpg"
+    }
+   ],
+   "caltrain": "Mountain View ~1.5mi \u00b7 ~18min train to RWC",
+   "folder": "candidates/228-s-rengstorff-mountain-view/"
+  },
+  {
+   "slug": "832-los-robles-palo-alto",
+   "name": "832 Los Robles Ave",
+   "city": "Palo Alto",
+   "rent": 4500,
+   "rentLabel": "$4,500",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1000,
+   "type": "House",
+   "avail": "Jun",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "Off-street parking (no garage)",
+   "yard": "Fully fenced front + back yards",
+   "distMi": 6,
+   "bikeMin": 40,
+   "score": 6.0,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Apartments.com",
+    "url": "https://www.apartments.com/2-br-2-bath-house-832-los-robles-ave-palo-alto-ca/39dkbcf/"
+   },
+   "summary": "A Palo Alto house with fully-fenced yards and a high-ceiling living room, ~8-min train to RWC \u2014 lovely but NO pets and no garage. Worth asking about the dog.",
+   "flags": [
+    "No pets \u2014 ask exception",
+    "No garage"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "yes",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "yes",
+    "rent": "yes",
+    "garage": "no",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "img/832-los-robles-palo-alto/01.jpg",
+     "full": "img/832-los-robles-palo-alto/01.jpg"
+    },
+    {
+     "thumb": "img/832-los-robles-palo-alto/02.jpg",
+     "full": "img/832-los-robles-palo-alto/02.jpg"
+    },
+    {
+     "thumb": "img/832-los-robles-palo-alto/03.jpg",
+     "full": "img/832-los-robles-palo-alto/03.jpg"
+    },
+    {
+     "thumb": "img/832-los-robles-palo-alto/04.jpg",
+     "full": "img/832-los-robles-palo-alto/04.jpg"
+    },
+    {
+     "thumb": "img/832-los-robles-palo-alto/05.jpg",
+     "full": "img/832-los-robles-palo-alto/05.jpg"
+    },
+    {
+     "thumb": "img/832-los-robles-palo-alto/06.jpg",
+     "full": "img/832-los-robles-palo-alto/06.jpg"
+    }
+   ],
+   "caltrain": "California Ave ~1.5mi \u00b7 ~8min train to RWC",
+   "folder": "candidates/832-los-robles-palo-alto/"
+  },
+  {
+   "slug": "482-view-st-mountain-view",
+   "name": "482 View St (Unit A)",
+   "city": "Mountain View",
+   "rent": 3600,
+   "rentLabel": "$3,600",
+   "beds": 1,
+   "baths": 1,
+   "sqft": 700,
+   "type": "Cottage",
+   "avail": "\u26a0 verify (listed 8/24)",
+   "pets": "Dogs OK",
+   "petsOk": true,
+   "garage": "On-site parking (no garage)",
+   "yard": "Fenced yard",
+   "distMi": 7,
+   "bikeMin": 42,
+   "score": 6.0,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Apartments.com",
+    "url": "https://www.apartments.com/482-view-st-mountain-view-ca/5gtc6mq/"
+   },
+   "summary": "Dog-friendly, renovated downtown-MV cottage with a fenced yard, walk to Caltrain at $3,600 \u2014 best MV option found, but it's a 1bd, no garage, and the availability date looks stale. Confirm it's live.",
+   "flags": [
+    "1 bedroom",
+    "No garage",
+    "Verify still available"
+   ],
+   "criteria": {
+    "beds": "no",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "no",
+    "house": "partial"
+   },
+   "photos": [
+    {
+     "thumb": "img/482-view-st-mountain-view/01.jpg",
+     "full": "img/482-view-st-mountain-view/01.jpg"
+    },
+    {
+     "thumb": "img/482-view-st-mountain-view/02.jpg",
+     "full": "img/482-view-st-mountain-view/02.jpg"
+    },
+    {
+     "thumb": "img/482-view-st-mountain-view/03.jpg",
+     "full": "img/482-view-st-mountain-view/03.jpg"
+    },
+    {
+     "thumb": "img/482-view-st-mountain-view/04.jpg",
+     "full": "img/482-view-st-mountain-view/04.jpg"
+    },
+    {
+     "thumb": "img/482-view-st-mountain-view/05.jpg",
+     "full": "img/482-view-st-mountain-view/05.jpg"
+    },
+    {
+     "thumb": "img/482-view-st-mountain-view/06.jpg",
+     "full": "img/482-view-st-mountain-view/06.jpg"
+    }
+   ],
+   "caltrain": "Walk to Mountain View Caltrain \u00b7 ~18min to RWC",
+   "folder": "candidates/482-view-st-mountain-view/"
+  },
+  {
+   "slug": "cl-sm-412-37th-ave",
+   "name": "412 37th Ave (Laurel Creek)",
+   "city": "San Mateo",
+   "rent": 5750,
+   "rentLabel": "$5,750",
+   "beds": 3,
+   "baths": 1,
+   "sqft": 1450,
+   "type": "House",
+   "avail": "Coming soon",
+   "pets": "Verify",
+   "petsOk": null,
+   "garage": "Detached garage",
+   "yard": "Very large fenced yard + fruit trees",
+   "distMi": 6.5,
+   "bikeMin": 40,
+   "score": 6.5,
+   "tier": "2",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Craigslist",
+    "url": "https://sfbay.craigslist.org/pen/apa/d/san-mateo-avr-realty-inc-presents-th-ave/7938841612.html"
+   },
+   "summary": "3bd San Mateo house with a detached garage gym and a big fenced yard at $5,750, ~12 min train to RWC. Solid if pets OK & available soon; 1 bath.",
+   "flags": [
+    "Verify pets",
+    "1 bath"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "yes"
+   },
+   "photos": [
+    {
+     "thumb": "https://images.craigslist.org/00A0A_3OlwsS7QrAO_03S05a_600x450.jpg",
+     "full": "https://images.craigslist.org/00A0A_3OlwsS7QrAO_03S05a_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00101_3mMqrQwA0IV_03S05a_600x450.jpg",
+     "full": "https://images.craigslist.org/00101_3mMqrQwA0IV_03S05a_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00606_b9ZKDPirrUO_03S05a_600x450.jpg",
+     "full": "https://images.craigslist.org/00606_b9ZKDPirrUO_03S05a_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00404_1MD1IG7t3WI_03S05a_600x450.jpg",
+     "full": "https://images.craigslist.org/00404_1MD1IG7t3WI_03S05a_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00606_fMV2yoIILlV_03S05a_600x450.jpg",
+     "full": "https://images.craigslist.org/00606_fMV2yoIILlV_03S05a_1200x900.jpg"
+    },
+    {
+     "thumb": "https://images.craigslist.org/00M0M_djxLzwJsE2r_03S05a_600x450.jpg",
+     "full": "https://images.craigslist.org/00M0M_djxLzwJsE2r_03S05a_1200x900.jpg"
+    }
+   ],
+   "caltrain": "Hayward Park ~1mi \u00b7 ~12min train to RWC",
+   "folder": "candidates/cl-sm-412-37th-ave/"
+  },
+  {
+   "slug": "1042-capuchino-ave-burlingame",
+   "name": "1042 Capuchino Ave (back unit)",
+   "city": "Burlingame",
+   "rent": 4000,
+   "rentLabel": "$4,000",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1200,
+   "type": "Duplex",
+   "avail": "Now",
+   "pets": "No pets",
+   "petsOk": false,
+   "garage": "Attached garage + 2 spaces",
+   "yard": "Fenced backyard",
+   "distMi": 9,
+   "bikeMin": 55,
+   "score": 5.5,
+   "tier": "3",
+   "defaultStatus": "new",
+   "source": {
+    "name": "Apartments.com",
+    "url": "https://www.apartments.com/1042-capuchino-ave-burlingame-ca/bz8sf4c/"
+   },
+   "summary": "Roomy walk-to-Caltrain Burlingame duplex unit with a garage and fenced yard at $4,000 \u2014 good value, but NO pets as listed. Ask about the dog.",
+   "flags": [
+    "No pets \u2014 ask exception"
+   ],
+   "criteria": {
+    "beds": "yes",
+    "busy": "yes",
+    "light": "partial",
+    "yard": "yes",
+    "dist": "partial",
+    "ceilings": "unknown",
+    "rent": "yes",
+    "garage": "yes",
+    "house": "partial"
+   },
+   "photos": [
+    {
+     "thumb": "img/1042-capuchino-ave-burlingame/01.jpg",
+     "full": "img/1042-capuchino-ave-burlingame/01.jpg"
+    },
+    {
+     "thumb": "img/1042-capuchino-ave-burlingame/02.jpg",
+     "full": "img/1042-capuchino-ave-burlingame/02.jpg"
+    },
+    {
+     "thumb": "img/1042-capuchino-ave-burlingame/03.jpg",
+     "full": "img/1042-capuchino-ave-burlingame/03.jpg"
+    },
+    {
+     "thumb": "img/1042-capuchino-ave-burlingame/04.jpg",
+     "full": "img/1042-capuchino-ave-burlingame/04.jpg"
+    },
+    {
+     "thumb": "img/1042-capuchino-ave-burlingame/05.jpg",
+     "full": "img/1042-capuchino-ave-burlingame/05.jpg"
+    },
+    {
+     "thumb": "img/1042-capuchino-ave-burlingame/06.jpg",
+     "full": "img/1042-capuchino-ave-burlingame/06.jpg"
+    }
+   ],
+   "caltrain": "Burlingame station ~0.5mi \u00b7 ~17min train to RWC",
+   "folder": "candidates/1042-capuchino-ave-burlingame/"
   }
  ]
 }

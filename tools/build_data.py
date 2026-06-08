@@ -41,7 +41,17 @@ CL_PHOTOS = {
  "cl-sm-1746-dewey":"01515_bKm4g93oRZC_0ak07K 00t0t_60d1vAICMpQ_0ak07K 00F0F_5qO8Sw42qs5_0ak07K 00Z0Z_lqLfi1eS5w8_07K0ak 00X0X_4toHm44COMy_0ak07K 01616_3dlhwIqlCxY_0ak07K 00606_bX83OYUnXcZ_0ak07K",
  "cl-sm-palm-ave":"01717_7tBLnFWDdCH_0CI0t2 00f0f_ebODrDW8yG7_0CI0t2 00x0x_iKll6lc8IwT_0CI0t2 00505_aBtFONFuLzG_0CI0t2 00b0b_bGJkVEa4IcC_0CI0t2 00Y0Y_4oCCq0VFyVV_0CI0t2 00j0j_63WzgXpKVV9_0lM0t2",
  "cl-burlingame-easton":"00Z0Z_i2v7yQLvqv5_07K0ak 00V0V_apvDgkZckrP_07K0ak 00l0l_8MJe462pJvf_07K0ak 00t0t_dEBVpCW4yB6_07K0ak 00l0l_l0rKfzPNmoe_07K0ak 00B0B_i98JEcwwURn_07K0ak 00y0y_1ldL0jVavv5_07K0ak",
+ "cl-sm-412-37th-ave":"00A0A_3OlwsS7QrAO_03S05a 00101_3mMqrQwA0IV_03S05a 00606_b9ZKDPirrUO_03S05a 00404_1MD1IG7t3WI_03S05a 00606_fMV2yoIILlV_03S05a 00M0M_djxLzwJsE2r_03S05a",
 }
+
+# Apartments.com photos don't hotlink, so these are served from docs/img/<slug>/ (committed, non-LFS).
+LOCAL_PHOTOS = {"1623-howard-ave-san-carlos","482-view-st-mountain-view",
+ "228-s-rengstorff-mountain-view","832-los-robles-palo-alto","1042-capuchino-ave-burlingame"}
+def localphotos(slug):
+    d=os.path.join(ROOT,"docs","img",slug)
+    if not os.path.isdir(d): return []
+    files=sorted(f for f in os.listdir(d) if f.endswith(".jpg"))
+    return [{"thumb":f"img/{slug}/{f}","full":f"img/{slug}/{f}"} for f in files]
 
 # Caltrain commute note per slug (shown on the card for corridor homes that aren't bike-to-work)
 CALTRAIN = {
@@ -49,6 +59,12 @@ CALTRAIN = {
  "cl-sm-1746-dewey":"Hayward Park ~1mi · ~12min train to RWC",
  "cl-sm-palm-ave":"Walk to San Mateo Caltrain · ~13min to RWC",
  "cl-burlingame-easton":"Burlingame station ~1mi · ~17min train to RWC",
+ "1623-howard-ave-san-carlos":"San Carlos station ~0.8mi · ~7min train to RWC",
+ "482-view-st-mountain-view":"Walk to Mountain View Caltrain · ~18min to RWC",
+ "228-s-rengstorff-mountain-view":"Mountain View ~1.5mi · ~18min train to RWC",
+ "832-los-robles-palo-alto":"California Ave ~1.5mi · ~8min train to RWC",
+ "1042-capuchino-ave-burlingame":"Burlingame station ~0.5mi · ~17min train to RWC",
+ "cl-sm-412-37th-ave":"Hayward Park ~1mi · ~12min train to RWC",
 }
 def cphotos(slug):
     return [{"thumb": f"https://images.craigslist.org/{b}_600x450.jpg",
@@ -200,6 +216,43 @@ DATA = [
   "Craigslist","https://sfbay.craigslist.org/pen/apa/d/burlingame-bedroom-bath-easton-addition/7935509988.html",
   "Charming Westside Burlingame house with a den + detached garage, ~17 min train to RWC. 2bd+den/1ba; verify pets.",
   ["Verify pets","1 bath"], C("yes","yes","partial","partial","partial","unknown","yes","yes","yes")),
+
+ # ---- Round 2: Apartments.com + Craigslist corridor finds ----
+ ("1623-howard-ave-san-carlos","1623 Howard Ave","San Carlos",5495,"$5,495",3,2,1783,"House","Now",
+  "Dogs & cats OK",True,"2-car garage + 2 sheds","Huge backyard (deck/patio/fruit trees)",3,16,8.5,"1","to-contact",
+  "Apartments.com","https://www.apartments.com/1623-howard-ave-san-carlos-ca/8r5pnt0/",
+  "Checks nearly every box: 3bd house, dogs OK, 2-car garage gym, big sunny yard, high ceilings, ~7-min train to RWC at $5,495. New front-runner.",
+  ["Verify full yard fencing"], C("yes","yes","yes","yes","partial","yes","yes","yes","yes")),
+
+ ("228-s-rengstorff-mountain-view","228 S Rengstorff Ave","Mountain View",4500,"$4,500",4,2,1219,"House","Verify",
+  "Verify",None,"Detached garage","Private fenced backyard",7,42,6.5,"2","new",
+  "Apartments.com","https://www.apartments.com/4-br-2-bath-house-228-s-rengstorff-ave-mountain-view-ca/v77dqgf/",
+  "Spacious 4bd MV house (3bd + back studio) with a detached garage gym and private fenced yard at $4,500, ~18 min train to RWC. Verify pets.",
+  ["Verify pets","Rengstorff traffic"], C("yes","partial","partial","yes","partial","unknown","yes","yes","yes")),
+
+ ("832-los-robles-palo-alto","832 Los Robles Ave","Palo Alto",4500,"$4,500",2,2,1000,"House","Jun",
+  "No pets",False,"Off-street parking (no garage)","Fully fenced front + back yards",6,40,6.0,"2","new",
+  "Apartments.com","https://www.apartments.com/2-br-2-bath-house-832-los-robles-ave-palo-alto-ca/39dkbcf/",
+  "A Palo Alto house with fully-fenced yards and a high-ceiling living room, ~8-min train to RWC — lovely but NO pets and no garage. Worth asking about the dog.",
+  ["No pets — ask exception","No garage"], C("yes","yes","yes","yes","partial","yes","yes","no","yes")),
+
+ ("482-view-st-mountain-view","482 View St (Unit A)","Mountain View",3600,"$3,600",1,1,700,"Cottage","⚠ verify (listed 8/24)",
+  "Dogs OK",True,"On-site parking (no garage)","Fenced yard",7,42,6.0,"2","new",
+  "Apartments.com","https://www.apartments.com/482-view-st-mountain-view-ca/5gtc6mq/",
+  "Dog-friendly, renovated downtown-MV cottage with a fenced yard, walk to Caltrain at $3,600 — best MV option found, but it's a 1bd, no garage, and the availability date looks stale. Confirm it's live.",
+  ["1 bedroom","No garage","Verify still available"], C("no","yes","partial","yes","partial","unknown","yes","no","partial")),
+
+ ("cl-sm-412-37th-ave","412 37th Ave (Laurel Creek)","San Mateo",5750,"$5,750",3,1,1450,"House","Coming soon",
+  "Verify",None,"Detached garage","Very large fenced yard + fruit trees",6.5,40,6.5,"2","new",
+  "Craigslist","https://sfbay.craigslist.org/pen/apa/d/san-mateo-avr-realty-inc-presents-th-ave/7938841612.html",
+  "3bd San Mateo house with a detached garage gym and a big fenced yard at $5,750, ~12 min train to RWC. Solid if pets OK & available soon; 1 bath.",
+  ["Verify pets","1 bath"], C("yes","yes","partial","yes","partial","unknown","yes","yes","yes")),
+
+ ("1042-capuchino-ave-burlingame","1042 Capuchino Ave (back unit)","Burlingame",4000,"$4,000",2,1,1200,"Duplex","Now",
+  "No pets",False,"Attached garage + 2 spaces","Fenced backyard",9,55,5.5,"3","new",
+  "Apartments.com","https://www.apartments.com/1042-capuchino-ave-burlingame-ca/bz8sf4c/",
+  "Roomy walk-to-Caltrain Burlingame duplex unit with a garage and fenced yard at $4,000 — good value, but NO pets as listed. Ask about the dog.",
+  ["No pets — ask exception"], C("yes","yes","partial","yes","partial","unknown","yes","yes","partial")),
 ]
 
 PHOTO_FALLBACK = {  # slugs whose photos come from craigslist or none
@@ -209,9 +262,10 @@ out = []
 for row in DATA:
     (slug,name,city,rent,rentLabel,beds,baths,sqft,typ,avail,petsLabel,petsOk,
      garageLabel,yardLabel,distMi,bikeMin,score,tier,status,srcName,srcUrl,summary,flags,crit) = row
-    if slug in ZILLOW_PHOTOS: photos = zphotos(slug)
-    elif slug in CL_PHOTOS:  photos = cphotos(slug)
-    else:                    photos = []
+    if slug in LOCAL_PHOTOS:   photos = localphotos(slug)
+    elif slug in ZILLOW_PHOTOS: photos = zphotos(slug)
+    elif slug in CL_PHOTOS:    photos = cphotos(slug)
+    else:                      photos = []
     out.append({
         "slug":slug,"name":name,"city":city,"rent":rent,"rentLabel":rentLabel,
         "beds":beds,"baths":baths,"sqft":sqft,"type":typ,"avail":avail,
